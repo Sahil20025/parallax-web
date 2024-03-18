@@ -1,0 +1,64 @@
+/* Define global styles */
+html, body{
+    height: 100%;
+    margin: 0% ;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: black;
+}
+/*Adding image in the background with minimum height*/
+.part1{
+    background-image: url(image/pic1.jpg);
+    min-height: 100%;
+}
+.part2{
+    background-image: url(image/pic2.jpg);
+    min-height: 400px;
+}
+.part3{
+    background-image: url(image/pic3.jpeg);
+    min-height: 400px;
+}
+.part4{
+    background-image: url(image/pic4.jpg);
+    min-height: 400px;
+}
+.part5{
+    background-image: url(image/pic5.jpg);
+    min-height: 100%;
+}
+/* Define background images and layout for each section */
+.part1, .part2, .part3, .part4, .part5{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Style for centered text in sections */
+.sub_part1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.sub_part2{
+    background: #313534;
+    color: white;
+    padding: 20px;
+}
+/* Style for background color and text color in alternate sections */
+.alfa{
+    padding: 50px 80px;
+    text-align: center;
+}
+.textpart1{
+    background-color: #282e34;
+    color: white;
+}
